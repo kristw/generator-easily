@@ -25,4 +25,3 @@ module.exports = BaseWithEasily.extend({
     this.installDependencies();
   }
 });
-

@@ -1,4 +1,4 @@
-# generator-generator [![Build Status](https://secure.travis-ci.org/yeoman/generator-generator.svg?branch=master)](https://travis-ci.org/yeoman/generator-generator) [![Coverage Status](https://coveralls.io/repos/yeoman/generator-generator/badge.svg?branch=master&service=github)](https://coveralls.io/github/yeoman/generator-generator?branch=master)
+# generator-easily [![Build Status](https://secure.travis-ci.org/yeoman/generator-easily.svg?branch=master)](https://travis-ci.org/yeoman/generator-easily) [![Coverage Status](https://coveralls.io/repos/yeoman/generator-easily/badge.svg?branch=master&service=github)](https://coveralls.io/github/yeoman/generator-easily?branch=master)
 
 
 > Yeoman generator generating a Yeoman generator
@@ -8,7 +8,7 @@
 
 ## Getting started
 
-- Install: `npm install -g generator-generator`
+- Install: `npm install -g generator-easily`
 - Run: `yo generator`
 
 
@@ -28,7 +28,7 @@ Scaffolds out a complete generator directory structure for you:
 │   └── app/
 │       ├── index.js
 │       └── templates/
-│           └── dummyfile.txt
+│           └── __package.json
 ├── .editorconfig
 ├── .gitattributes
 ├── .gitignore
@@ -62,5 +62,9 @@ command or commands that cause the issue.
 
 
 ## License
+
+Apache-2 © Krist Wongsuphasawat <krist.wongz@gmail.com>
+
+Forked from generator-generator
 
 MIT © Pascal Hartig <phartig@rdrei.net> and other contributors

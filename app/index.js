@@ -71,7 +71,7 @@ module.exports = generators.Base.extend({
     extend(pkg, {
       dependencies: {
         'yeoman-generator': '^0.24.0',
-        'yeoman-easily': '^0.2.0',
+        'yeoman-easily': '^0.2.1',
         chalk: '^1.0.0',
         yosay: '^1.2.0'
       },
