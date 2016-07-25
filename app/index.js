@@ -69,6 +69,7 @@ module.exports = generators.Base.extend({
   writing: function () {
     var pkg = this.fs.readJSON(this.destinationPath('package.json'), {});
     extend(pkg, {
+      main: "generators/app/index.js",
       dependencies: {
         'yeoman-generator': '^0.24.0',
         'yeoman-easily': '^0.2.1',
