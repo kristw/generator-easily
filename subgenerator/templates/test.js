@@ -12,7 +12,7 @@ describe('<%- generatorName %>:<%- namespace %>', function () {
 
   it('creates files', function () {
     assert.file([
-      '_package.json'
+      '__package.json'
     ]);
   });
 });

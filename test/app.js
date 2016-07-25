@@ -63,8 +63,9 @@ describe('generator:app', function () {
         name: 'generator-temp',
         dependencies: {
           'yeoman-generator': '^0.23.0',
+          'yeoman-easily': '^0.2.0',
           chalk: '^1.0.0',
-          yosay: '^1.0.0'
+          yosay: '^1.2.0'
         },
         devDependencies: {
           'yeoman-assert': '^2.0.0',

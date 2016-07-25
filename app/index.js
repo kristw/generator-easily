@@ -70,9 +70,10 @@ module.exports = generators.Base.extend({
     var pkg = this.fs.readJSON(this.destinationPath('package.json'), {});
     extend(pkg, {
       dependencies: {
-        'yeoman-generator': '^0.23.0',
+        'yeoman-generator': '^0.24.0',
+        'yeoman-easily': '^0.2.0',
         chalk: '^1.0.0',
-        yosay: '^1.0.0'
+        yosay: '^1.2.0'
       },
       devDependencies: {
         'yeoman-test': '^1.0.0',
