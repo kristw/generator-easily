@@ -12,7 +12,7 @@ describe('<%- generatorName %>:<%- namespace %>', function () {
 
   it('creates files', function () {
     assert.file([
-      'dummyfile.txt'
+      '_package.json'
     ]);
   });
 });

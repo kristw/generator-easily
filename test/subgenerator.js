@@ -35,7 +35,7 @@ describe('generator:subgenerator', function () {
   it('creates files', function () {
     assert.file([
       'generators/foo/index.js',
-      'generators/foo/templates/dummyfile.txt',
+      'generators/foo/templates/__package.json',
       'test/foo.js'
     ]);
   });

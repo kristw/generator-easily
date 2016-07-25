@@ -51,7 +51,7 @@ describe('generator:app', function () {
         'README.md',
         'package.json',
         'generators/app/index.js',
-        'generators/app/templates/dummyfile.txt',
+        'generators/app/templates/__package.json',
         'test/app.js'
       ];
 

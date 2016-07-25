@@ -1,8 +1,8 @@
 {
-  "name": "generator-generator",
-  "version": "1.2.1",
+  "name": "generator-easily",
+  "version": "0.0.0",
   "description": "Generate a Yeoman generator",
-  "author": "Yeoman team",
+  "author": "Krist Wongsuphasawat",
   "files": [
     "app",
     "subgenerator"
@@ -16,7 +16,7 @@
     "create",
     "boilerplate"
   ],
-  "repository": "yeoman/generator-generator",
+  "repository": "kristw/generator-easily",
   "scripts": {
     "test": "gulp",
     "prepublish": "gulp prepublish"
@@ -46,9 +46,9 @@
     "gulp-plumber": "^1.0.0",
     "mocha": "^2.2.5",
     "mockery": "^1.4.0",
+    "pinkie-promise": "^2.0.1",
     "yeoman-assert": "^2.0.0",
-    "yeoman-test": "^1.0.0",
-    "pinkie-promise": "^2.0.1"
+    "yeoman-test": "^1.0.0"
   },
   "license": "MIT"
 }

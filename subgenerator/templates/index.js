@@ -1,36 +1,28 @@
 'use strict';
-var yeoman = require('yeoman-generator');
+
+var BaseWithEasily = require('yeoman-easily').BaseWithEasily;
 var chalk = require('chalk');
-var yosay = require('yosay');
 
-module.exports = yeoman.Base.extend({
+module.exports = BaseWithEasily.extend({
   prompting: function () {
-    // Have Yeoman greet the user.
-    this.log(yosay(
-      'Welcome to the <%- superb %> ' + chalk.red('<%= generatorName %>') + ' generator!'
-    ));
-
-    var prompts = [{
-      type: 'confirm',
-      name: 'someAnswer',
-      message: 'Would you like to enable this option?',
-      default: true
-    }];
-
-    return this.prompt(prompts).then(function (props) {
-      // To access props later use this.props.someAnswer;
-      this.props = props;
-    }.bind(this));
+    return this.easily
+      .greet('Welcome to the <%- superb %> ' + chalk.red('<%= generatorName %>') + ' generator!')
+      .confirmBeforeStart('Would you like to continue?')
+      .prompt();
   },
 
   writing: function () {
-    this.fs.copy(
-      this.templatePath('dummyfile.txt'),
-      this.destinationPath('dummyfile.txt')
-    );
+    if (this.easily.checkForConfirmation()) {
+      this.easily.extendJSONWithTemplate(
+        '__package.json',
+        'package.json',
+        this.props
+      );
+    }
   },
 
   install: function () {
     this.installDependencies();
   }
 });
+
