@@ -1,7 +1,7 @@
 # generator-easily [![Build Status](https://secure.travis-ci.org/kristw/generator-easily.svg?branch=master)](https://travis-ci.org/kristw/generator-easily) [![Coverage Status](https://coveralls.io/repos/kristw/generator-easily/badge.svg?branch=master&service=github)](https://coveralls.io/github/kristw/generator-easily?branch=master)
 
 
-> Yeoman generator generating a Yeoman generator
+> Yeoman generator generating a Yeoman generator (with yeoman-easily)
 
 ![Yo dawg, I heard you like generators?](http://i.imgur.com/2gqiift.jpg)
 
@@ -9,13 +9,13 @@
 ## Getting started
 
 - Install: `npm install -g generator-easily`
-- Run: `yo generator`
+- Run: `yo easily`
 
 
 ## Commands
 
-* `yo generator` shows a wizard for generating a new generator
-* `yo generator:subgenerator <name>` generates a subgenerator with the name `<name>`
+* `yo easily` shows a wizard for generating a new generator, with yeoman-easily included and ready to use via `this.easily`.
+* `yo easily:subgenerator <name>` generates a subgenerator with the name `<name>`. The new subgenerator will have yeoman-easily as `this.easily`.
 
 
 ## What do you get?
