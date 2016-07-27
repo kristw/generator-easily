@@ -1,6 +1,5 @@
 sudo: false
 language: node_js
 node_js:
-  - stable
+  - v6
   - v5
-  - v4
