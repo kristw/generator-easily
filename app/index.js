@@ -72,7 +72,7 @@ module.exports = generators.Base.extend({
       main: 'generators/app/index.js',
       dependencies: {
         'yeoman-generator': '^0.24.0',
-        'yeoman-easily': '^0.3.4',
+        'yeoman-easily': '^0.4.0',
         chalk: '^1.0.0',
         yosay: '^1.2.0'
       },
