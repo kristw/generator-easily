@@ -3,9 +3,6 @@
 
 > Yeoman generator generating a Yeoman generator (with yeoman-easily)
 
-![Yo dawg, I heard you like generators?](http://i.imgur.com/2gqiift.jpg)
-
-
 ## Getting started
 
 - Install: `npm install -g generator-easily`
@@ -43,23 +40,13 @@ Scaffolds out a complete generator directory structure for you:
     └── app.js
 ```
 
-Refer to [our documentation](http://yeoman.io/authoring/) to learn more about creating a Yeoman generator.
+Refer to [Yeoman documentation](http://yeoman.io/authoring/) to learn more about creating a Yeoman generator.
 
 ### Running tests
 
 Run `npm test` to run your test suite.
 
 These tests will be run automatically in your git repository if you connect [Travis CI](https://travis-ci.org/profile). You can also track test coverage using [Coveralls](https://coveralls.io).
-
-## Contributing
-
-See the [contribution docs](http://yeoman.io/contributing/).
-
-When submitting an issue, please follow [the
-guidelines](http://yeoman.io/contributing/opening-issues.html).
-It is especially important to make sure Yeoman is up-to-date, and providing the
-command or commands that cause the issue.
-
 
 ## License
 
