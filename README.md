@@ -1,13 +1,12 @@
 # generator-easily [![Build Status](https://secure.travis-ci.org/kristw/generator-easily.svg?branch=master)](https://travis-ci.org/kristw/generator-easily) [![Coverage Status](https://coveralls.io/repos/kristw/generator-easily/badge.svg?branch=master&service=github)](https://coveralls.io/github/kristw/generator-easily?branch=master)
 
 
-> Yeoman generator generating a Yeoman generator (with yeoman-easily)
+> Yeoman generator generating a Yeoman generator (with [yeoman-easily](https://github.com/kristw/yeoman-easily))
 
 ## Getting started
 
 - Install: `npm install -g generator-easily`
 - Run: `yo easily`
-
 
 ## Commands
 
