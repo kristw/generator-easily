@@ -49,7 +49,7 @@ These tests will be run automatically in your git repository if you connect [Tra
 
 ## License
 
-Apache-2 © Krist Wongsuphasawat <krist.wongz@gmail.com>
+Apache-2 © [Krist Wongsuphasawat](http://kristw.yellowpigz.com)
 
 Forked from generator-generator
 
